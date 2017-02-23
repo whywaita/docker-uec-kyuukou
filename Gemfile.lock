@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hpricot (0.8.6)
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.5)
+    uec_express_api (0.1.1)
+      hpricot
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra
+  uec_express_api
+
+BUNDLED WITH
+   1.12.5
